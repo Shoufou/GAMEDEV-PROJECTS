@@ -41,6 +41,7 @@ public class FunWithLaserGameManager : MonoBehaviour
         if(this.time <= 0)
         {
             ResetGame();
+            this.time = 1;
         }
     }
 
