@@ -1,0 +1,127 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 35104)
+VBCSCompiler prewarm took 15.59 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-river" at "2026-10-13T11:23:43.1019367Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32233 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-13T11:23:43Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 60436, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              026d5a3881cf4faa8f474c67af721f5b
+  Correlation Id:          c670a2dac1810508eaec5079e67e4c27
+  External correlation Id: 4298950349686519662
+  Machine Id:              kYXmVb3CWemCZA3y+9JLSWYgUQs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-river" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-river-notifications" at "2026-10-13T11:23:43.222129Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token 4ire4RpOat...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3U7K-5BZ7-JB6Y-N7B8-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-19T12:22:33Z
+[Licensing::Module] License group:
+  Id: 18968498108013-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3U7K-5BZ7-JB6Y-N7B8-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-19T12:22:33Z
+[Licensing::Module] License group:
+  Id: 18968498108013-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Module] Licensing Background thread has ended after 0.14s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectpath
+C:\Users\river\Desktop\LASERFILES\Packages
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-river
+-hubSessionId
+ce123ff4-7851-4cd9-8461-aa6e46a4ba31
+-accessToken
+4ire4RpOatMVrjwFLqmDNUUplt1MnCrRukv_z5nhlP4011f
+Successfully changed project path to: C:\Users\river\Desktop\LASERFILES\Packages
+C:/Users/river/Desktop/LASERFILES/Packages
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [39712]  Target information:
+
+Player connection [39712]  * "[IP] 169.254.83.107 [Port] 55504 [Flags] 2 [Guid] 3860878662 [EditorId] 3860878662 [Version] 1048832 [Id] WindowsEditor(7,PaoloLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39712]  * "[IP] 192.168.100.97 [Port] 55504 [Flags] 2 [Guid] 3860878662 [EditorId] 3860878662 [Version] 1048832 [Id] WindowsEditor(7,PaoloLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-29884" after 0.6 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3U7K-5BZ7-JB6Y-N7B8-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-19T12:22:33Z
+[Licensing::Module] License group:
+  Id: 18968498108013-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+Rebuilding Library because the asset database could not be found!
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
