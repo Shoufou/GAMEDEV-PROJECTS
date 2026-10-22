@@ -1,5 +1,4 @@
-Current Project in Main Branch - Knockdown
-
+Current Project in Main Branch - Stealth Game
 Demo Videos:
 
 Go Go Gummi: https://drive.google.com/file/d/1IUw1LtOrJwvCH2s7PPtfbOxAQ_pU7hVp/view?usp=sharing
